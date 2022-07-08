@@ -24,7 +24,7 @@ jobs:
         run: flake8 .
 
       - name: Lint with MyPy
-        run: mypy .
+        run: mypy src
 
       - name: Build distribution package
         run: python setup.py bdist_wheel
