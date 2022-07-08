@@ -1,0 +1,42 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "python.linting.enabled": true,
+        "python.formatting.provider": "black",
+        "python.testing.unittestArgs": [
+            "-v",
+            "-s",
+            "./tests",
+            "-p",
+            "test_*.py"
+        ],
+        "python.testing.pytestEnabled": false,
+        "python.testing.unittestEnabled": true,
+        "python.formatting.blackArgs": [
+            "--line-length=127"
+        ],
+        "cSpell.enabled": true,
+        "cSpell.words": []
+    },
+    "launch": {
+        "configurations": [{
+            "name": "Python: Validate AaC",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/aac/__main__.py",
+            "args": [
+                "validate",
+                "${workspaceFolder}/src/aac/spec/spec.yaml"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }],
+        "compounds": []
+    }
+}
