@@ -2,7 +2,6 @@
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
-[![Main branch AaC Workflow](https://github.com/jondavid-black/AaC/actions/workflows/main-branch.yml/badge.svg)](https://github.com/jondavid-black/AaC/actions/workflows/main-branch.yml)
-
 # Python-Project-Template
+
 A quick and easy starting point for new Python projects.
