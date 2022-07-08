@@ -22,14 +22,11 @@
     ],
     "launch": {
         "configurations": [{
-            "name": "Python: Validate AaC",
+            "name": "Run Example",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/src/aac/__main__.py",
-            "args": [
-                "validate",
-                "${workspaceFolder}/src/aac/spec/spec.yaml"
-            ],
+            "program": "${workspaceFolder}/src/example/__main__.py",
+            "args": [],
             "console": "integratedTerminal",
             "justMyCode": false
         }],
