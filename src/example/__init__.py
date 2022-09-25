@@ -3,7 +3,7 @@
 import logging
 import os
 
-__version__ = "0.1.2"
+__version__ = "0.0.1"
 APP_NAME: str = "example"
 
 logging.basicConfig(
