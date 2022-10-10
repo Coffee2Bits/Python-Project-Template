@@ -80,5 +80,5 @@ setup(
         "Operating System :: OS Independent",
         "Topic :: Scientific/Engineering",
     ],
-    keywords=["MBSE"],
+    keywords=[],
 )
